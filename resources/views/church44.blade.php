@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html class="no-js" lang=""> <!--<![endif]-->
+<html class="no-js" lang=""> <head><title>Center Springs UMC</title>
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -205,7 +205,7 @@ h1 {
 }
 
 
-/* Resume lightbox*/
+/* Resume CSS*/
 
 /* uses font awesome for social icons */
 @import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
@@ -222,7 +222,7 @@ h1 {
     -moz-border-right-colors: none;
     -moz-border-top-colors: none;
     border-color: #eee;
-    border-image: none;
+    background-color: rgba(255,255,255, 1);
     border-radius: 3px;
     border-style: solid;
     border-width: 1px 1px 1px 5px;
@@ -264,7 +264,7 @@ h1 {
 
 
 .progress-bar {
-    text-align: left;
+  text-align: left;
 	white-space: nowrap;
 	white-space: nowrap;
 	overflow: hidden;
@@ -320,7 +320,7 @@ h1 {
 }
 
 
-
+.table-condensed
 
 
 </style>
@@ -330,7 +330,7 @@ h1 {
 		<img src="{{url('images/umc_logo.png')}}" alt="umc" height="160" width="160">
 	</div>
 
-	
+
 	<nav id="main-nav">
 <!-- 		<img src="{{url('images/umc_logo.png')}}" alt="umc" height="42" width="42">
  -->	<ul id="main-menu" class="sm sm-mint" data-smartmenus-id="15406663225072114">
@@ -379,7 +379,7 @@ h1 {
 
         <li><a href="#" class="has-submenu" id="sm-15406663225072114-15" aria-haspopup="true" aria-controls="sm-15406663225072114-16" aria-expanded="false">About us<span class="sub-arrow"></span></a>
           <ul class="mega-menu" id="sm-15406663225072114-16" role="group" aria-hidden="true" aria-labelledby="sm-15406663225072114-15" aria-expanded="false" style="width: 20em; min-width: 10em; display: none; max-width: 20em; top: auto; left: 0px; margin-left: 0px; margin-top: 0px;">
-            <li>
+            <li><a href="#" id="matthewhopp">Author's Resume</a></li>
             	<div id="about-ajax"> </div>
               <!-- The mega drop down contents -->
               <!-- <div style="width:400px;max-width:100%;">
@@ -402,7 +402,7 @@ h1 {
 <style>
 
 body{
-	background-image: url("images/imagegrasswithflag1.png");
+	background-image: url("images/imagesunrise1.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -419,38 +419,6 @@ body{
 <!-- 	      <img src="images/imagegrass1.png" style="width:100%;" alt="..."> -->
 
 </div>
-
-
-<!-- <div class="container drop-shadow">
-        <div class="content colour-1">
-  <div class="container">
-    <h1>Same height columns in Bootstrap</h1>
-    <div class="row row-flex">
-      <div class="col-md-4 col-sm-6 col-xs-12">
-          <h3>First column</h3>
-          <p>This one has a bit longer content</p>
-          <p>This one has a bit longer content</p>
-        </div>
-    </div>
-</div>
-</div>
-</div>
-
-<div class="container drop-shadow">
-  <div class="container">
-    <h1>Same height columns in Bootstrap</h1>
-    <div class="row row-flex">
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="content colour-1">
-          <h3>First column</h3>
-          <p>This one has a bit longer content</p>
-          <p>This one has a bit longer content</p>
-   	    	</div>
-  	  	</div>
-	</div>
-</div>
-</div> -->
-
 <div class = "containermaster">
 <div class= "container drop-shadow">
 
@@ -458,35 +426,32 @@ body{
 	<div class="row">
 		<div class="content colour-1">
             <div class="content colour-2">
-                <h3 class="panel-title text-center">Welcome!</h3>
+                <h3 class="panel-title text-center"> Center Springs United Methodist Church </h3>
                     <ul class="nav panel-tabs">
                     </ul>
-            </div>            
-            <div class="panel-body">
-                <div class="tab-content">
-                    <div class="tab-pane active">
-            <div class="row">
-             <div class="col-sm-3">
+            </div>
+      <div class="panel-body">
+        <div class="tab-content">
+            <div class="tab-pane active">
+              <div class="row">
+                <div class="col-sm-3">
             <p style="MARGIN-RIGHT: 0px" dir="ltr" align="left"><strong><u>CENTER SPRINGS UMC</u>:<br>
             </strong>PH: 256-778-0012<br>
             4851 East Upper River Rd<br>
             Somerville, AL 35670</p>
             <p style="MARGIN-RIGHT: 0px" dir="ltr" align="left"><strong><u>SERVICE TIMES</u>:<br>
-            </strong>Sunday Mornings<br>
+            </strong>Sunday Mornings<br> 
             Worship: 9:00 &amp; 10:40<br>
             Youth: 9:00<br>
             Children: 9:00 </p>
-             </div>
+              </div>
           	</div>
-    				</div>
+    			</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-
-
-
 
 <div class="container container-content" style="display:none;" id="pastormessage-content">
     <div class="row">
@@ -500,51 +465,11 @@ body{
             <div class="panel-body">
                 <div class="tab-content">
                     <div class="tab-pane active" id="test">
-                       <p>L Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-
-Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia.
-
-Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi.
-
-Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. Praesent turpis.
-
-Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Nullam sagittis. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. Pellentesque ut neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-us. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia.
-
-Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi.
-
-Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. Praesent turpis.
-
-Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Nullam sagittis. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. Pellentesque ut neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-us. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia.
-
-Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi.
-
-Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. Praesent turpis.
-
-Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Nullam sagittis. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. Pellentesque ut neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-us. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia.
-
-Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi.
-
-Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. Praesent turpis.
-
-Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Nullam sagittis. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. Pellentesque ut neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-us. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia.
-
-Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi.
-
-Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. Praesent turpis.
-
-Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Nullam sagittis. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. Pellentesque ut neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-
-In dui magna, posuere eget, vestibulum et, tempor auctor, justo. In ac felis quis tortor malesuada pretium. Pellentesque auctor neque nec urna. Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Aenean viverra rhoncus pede. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut non enim eleifend felis pretium feugiat. Vivamus quis mi. Phasellus a est. Phasellus magna.
-
-In hac habitasse platea dictumst. Curabitur at lacus ac velit ornare lobortis. Curabitur a felis in nunc fringilla tristique. Morbi mattis ullamcorper velit. Phasellus gravida semper nisi. Nullam vel sem. Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam. Sed hendrerit. Morbi ac felis. Nunc egestas, augue at pellentesque laoreet, felis eros vehicula leo, at malesuada velit leo quis pede. Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, eget egestas libero turpis vel mi. Nunc nulla. Fusce risus nisl, viverra et, tempor et, pretium in, sapien. Donec venenatis vulputate lorem.
-
-Morbi nec metus. Phasellus blandit leo ut odio. Maecenas ullamcorper, dui et placerat feugiat, eros pede varius nisi, condimentum viverra felis nunc et lorem. Sed magna purus, fermentum eu, tincidunt eu, varius ut, felis. In auctor lobortis lacus. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna. Vestibulum ullamcorper mauris at ligula. Fusce fermentum. Nullam cursus lacinia erat. Praesent blandit laoreet nibh.
-
-Fusce convallis metus id felis luctus adipiscing. Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Quisque id mi. Ut tincidunt tincidunt erat. Etiam feugiat lorem non metus. Vestibulum dapibus nunc ac augue. Curabitur vestibulum aliquam leo. Praesent egestas neque eu enim. In hac habitasse platea dictumst. Fusce a quam. Etiam ut purus mattis mauris sodales aliquam. Curabitur nisi. Quisque malesuada placerat nisl. Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel, lacus. <p>
+                       <p>This was used to test container scrolling..... SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME!
+                       SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME!
+                        SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME!
+                         SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME!
+                          SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! SCROLL ME! You've made it to the bottom. Thanks for scrolling! ~ Matthew </p>
                     
                     </div>
                 </div>
@@ -552,6 +477,8 @@ Fusce convallis metus id felis luctus adipiscing. Pellentesque egestas, neque si
         </div>
     </div>
 </div>
+
+
 
 <div class="container container-content" style="display:none;" id="kidscorner-content">
     <div class="row">
@@ -565,23 +492,15 @@ Fusce convallis metus id felis luctus adipiscing. Pellentesque egestas, neque si
             <div class="panel-body">
                 <div class="tab-content">
                     <div class="tab-panealt active" id="test">
-                       L Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-
-Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia.
-
-Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi.
-
-Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. Praesent turpis.
-
-Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Nullam sagittis. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. Pellentesque ut neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-
-In dui magna, posuere eget, vestibulum et, tempor auctor, justo. In ac felis quis tortor malesuada pretium. Pellentesque auctor neque nec urna. Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Aenean viverra rhoncus pede. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut non enim eleifend felis pretium feugiat. Vivamus quis mi. Phasellus a est. Phasellus magna.
-
-In hac habitasse platea dictumst. Curabitur at lacus ac velit ornare lobortis. Curabitur a felis in nunc fringilla tristique. Morbi mattis ullamcorper velit. Phasellus gravida semper nisi. Nullam vel sem. Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam. Sed hendrerit. Morbi ac felis. Nunc egestas, augue at pellentesque laoreet, felis eros vehicula leo, at malesuada velit leo quis pede. Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, eget egestas libero turpis vel mi. Nunc nulla. Fusce risus nisl, viverra et, tempor et, pretium in, sapien. Donec venenatis vulputate lorem.
-
-Morbi nec metus. Phasellus blandit leo ut odio. Maecenas ullamcorper, dui et placerat feugiat, eros pede varius nisi, condimentum viverra felis nunc et lorem. Sed magna purus, fermentum eu, tincidunt eu, varius ut, felis. In auctor lobortis lacus. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna. Vestibulum ullamcorper mauris at ligula. Fusce fermentum. Nullam cursus lacinia erat. Praesent blandit laoreet nibh.
-
-Fusce convallis metus id felis luctus adipiscing. Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Quisque id mi. Ut tincidunt tincidunt erat. Etiam feugiat lorem non metus. Vestibulum dapibus nunc ac augue. Curabitur vestibulum aliquam leo. Praesent egestas neque eu enim. In hac habitasse platea dictumst. Fusce a quam. Etiam ut purus mattis mauris sodales aliquam. Curabitur nisi. Quisque malesuada placerat nisl. Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel, lacus.
+                       <p>This was used to test containers automatically scaling the proper length of the content needed...... TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST 
+                       TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST 
+                     TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST 
+                       TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST 
+                     TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST 
+                       TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST 
+                     TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST 
+                       TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST 
+                     TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST </p>
                     </div>
                 </div>
             </div>
@@ -589,7 +508,9 @@ Fusce convallis metus id felis luctus adipiscing. Pellentesque egestas, neque si
     </div>
 </div>
 
-<div class="container container-content" style="display:none;" id="churchmission">
+
+
+<div class="container container-content" style="display:none;" id="churchmission-content">
     <div class="row">
         <div class="content colour-1">
             <div class="content colour-2">
@@ -626,14 +547,7 @@ Fusce convallis metus id felis luctus adipiscing. Pellentesque egestas, neque si
 </div>
 
 
-
-
-
-
-
-
-
-<div class="container-content">
+<div class="container-content" style="display:none;" id="matthewhopp-content">
 <div class="resume">
 <div class="content colour-1">
     <div class="content colour-2">
@@ -662,39 +576,55 @@ Fusce convallis metus id felis luctus adipiscing. Pellentesque egestas, neque si
         </div>
       </div>
       <div class="bs-callout bs-callout-danger">
-        <h4>Who am I?</h4>
+        <h4>Career Objective:</h4>
         <p>
          </p>
         <p>
-            Content
+            ​To secure a position with Relatient that could lead to a long time
+career.
         </p>
       </div>
-      <div class="bs-callout bs-callout-danger">
-        <h4>Research Interests</h4>
-        <p>
-          Topic's names
-        </p>
-      </div>
-
-      <div class="bs-callout bs-callout-danger">
-        <h4>Prior Experiences</h4>
+ <div class="bs-callout bs-callout-danger">
+        <h4>Professional Experience</h4>
         <ul class="list-group">
           <a class="list-group-item inactive-link" href="#">
             <h4 class="list-group-item-heading">
-              Technical Support Specialist
+              Technical Support Specialist for Valley Rubber LLC, 2016 - 2018
             </h4>
             <p class="list-group-item-text">
-              Two years experience as a Technical Support Specialist. </p>
+              - Analyze situations and understanding how to find solutions to any technical support issues. </p>
+            <p class="list-group-item-text">
+              - Conduct in-depth research, compile information, and prepare quotes for approval. </p>
+            <p class="list-group-item-text">
+              - Prepare daily device checks into weekly department reports. </p>
+            <p class="list-group-item-text">
+              - Experienced with Microsoft 365 Email Administrator, Digium Switchvox Administrator, Microsoft 2012 Server, Avigilon Security Camera Server, and SonicWall firewalls. </p>
+              <p class="list-group-item-text">
+              - Understanding how to efficiently plan & run conduit, CAT6, and fiber on site. </p>
+              <p class="list-group-item-text">
+              - Dealing with department vendors and understanding the company needs when purchasing. </p>
           </a>
+          <a class="list-group-item inactive-link" href="#">
+            <h4 class="list-group-item-heading"> Press Operator for Valley Rubber LLC, 2015 - 2016 </h4>
+            <p class="list-group-item-text">
+              - Forklift & Scissor Lift certified</p>
+            <p class="list-group-item-text">
+              - Taught how to accurately produce high quality results within an intense time frame.</p>
+            <p></p>
           </a>
         </ul>
       </div>
+
       <div class="bs-callout bs-callout-danger">
-        <h4>Key Expertise</h4>
+        <h4>Key Strengths</h4>
         <ul class="list-group">
-          <li class="list-group-item"> Analyze situations and understand how to find solutions to technical issues. </li>
-          <li class="list-group-item"> Conduct in-depth research, compile information, and prepare reports </li>
-          <li class="list-group-item"> Prepare daily device checks into weekly department reports. </li>
+          <li class="list-group-item"> Analytical and Problem Solving Skills </li>
+          <li class="list-group-item"> Fluent typist </li>
+          <li class="list-group-item"> Quick learner </li>
+          <li class="list-group-item"> Critical thinking </li>
+          <li class="list-group-item"> Goal oriented </li>
+          <li class="list-group-item"> Self motivated </li>
+          <li class="list-group-item"> Creativity </li>
         </ul>
       </div>
       <div class="bs-callout bs-callout-danger">
@@ -704,52 +634,52 @@ Fusce convallis metus id felis luctus adipiscing. Pellentesque egestas, neque si
             
 
             <div class="progress">
-              <div data-placement="top" style="width: 80%;" 
-              aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" role="progressbar" class="progress-bar progress-bar-success">
-                <span class="sr-only">80%</span>
+              <div data-placement="top" style="width: 40%;" 
+              aria-valuemax="100" aria-valuemin="0" aria-valuenow="40" role="progressbar" class="progress-bar progress-bar-success">
+                <span class="sr-only">40%</span>
                 <span class="progress-type"> PHP / Laravel Framework(v5.4) / Composer </span>
               </div>
             </div>
             <div class="progress">
-              <div data-placement="top" style="width: 70%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="1" role="progressbar" class="progress-bar progress-bar-success">
-                <span class="sr-only">70%</span>
+              <div data-placement="top" style="width: 50%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="1" role="progressbar" class="progress-bar progress-bar-success">
+                <span class="sr-only">50%</span>
                 <span class="progress-type"> JavaScript / JQuery / Ajax </span>
               </div>
             </div>
             <div class="progress">
-              <div data-placement="top" style="width: 70%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="1" role="progressbar" class="progress-bar progress-bar-success">
-                <span class="sr-only">70%</span>
+              <div data-placement="top" style="width: 55%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="1" role="progressbar" class="progress-bar progress-bar-success">
+                <span class="sr-only">55%</span>
                 <span class="progress-type"> HTML / CSS </span>
               </div>
             </div>
             <div class="progress">
-              <div data-placement="top" style="width: 70%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="1" role="progressbar" class="progress-bar progress-bar-success">
-                <span class="sr-only">70%</span>
+              <div data-placement="top" style="width: 35%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="1" role="progressbar" class="progress-bar progress-bar-success">
+                <span class="sr-only">35%</span>
                 <span class="progress-type"> Bootstrap(v3) </span>
               </div>
             </div>
             <div class="progress">
-              <div data-placement="top" style="width: 65%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="1" role="progressbar" class="progress-bar progress-bar-warning">
-                <span class="sr-only">65%</span>
+              <div data-placement="top" style="width: 25%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="1" role="progressbar" class="progress-bar progress-bar-warning">
+                <span class="sr-only">25%</span>
                 <span class="progress-type"> Asynchronous JS Development</span>
               </div>
             </div>
             <div class="progress">
-              <div data-placement="top" style="width: 60%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="60" role="progressbar" class="progress-bar progress-bar-warning">
-                <span class="sr-only">60%</span>
+              <div data-placement="top" style="width: 30%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="60" role="progressbar" class="progress-bar progress-bar-warning">
+                <span class="sr-only">30%</span>
                 <span class="progress-type"> GitHub</span>
               </div>
             </div>
             <div class="progress">
-              <div data-placement="top" style="width: 50%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="50" role="progressbar" class="progress-bar progress-bar-warning">
-                <span class="sr-only">50%</span>
-                <span class="progress-type"> Basic Usage of Linux CLI</span>
+              <div data-placement="top" style="width: 20%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="50" role="progressbar" class="progress-bar progress-bar-warning">
+                <span class="sr-only">20%</span>
+                <span class="progress-type"> Basic Linux CLI</span>
               </div>
             </div>
             <div class="progress">
-              <div data-placement="top" style="width: 30%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="50" role="progressbar" class="progress-bar progress-bar-danger">
-                <span class="sr-only">50%</span>
-                <span class="progress-type"> First time use of AWS EC2 Instance & AWS S3</span>
+              <div data-placement="top" style="width: 20%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="50" role="progressbar" class="progress-bar progress-bar-danger">
+                <span class="sr-only">20%</span>
+                <span class="progress-type">AWS EC2 Instance & AWS S3</span>
               </div>
             </div>
 
@@ -759,34 +689,54 @@ Fusce convallis metus id felis luctus adipiscing. Pellentesque egestas, neque si
               <div style="width: 30%;" class="meter meter-right"><span class="meter-text"> I'm good </span></div>
             </div>
           </a>
-
-
         </ul>
       </div>
-      <div class="bs-callout bs-callout-danger">
-        <h4>Education</h4>
-        <table class="table table-striped table-responsive ">
-          <thead>
-            <tr><th>A.P. Brewer High School</th>
-            <th>Graduation Year</th>
-          </tr></thead>
-          <tbody>
-            <tr>
-              <td>High School Diploma</td>
-              <td>2015</td>
-            </tr>
-          </tbody>
-        </table>
+          <div class="bs-callout bs-callout-danger">
+            <h4>Education</h4>
+            <table class="table">
+            <thead>
+             <tr>
+               <th>A.P. Brewer High School</th>
+               <th></th>
+               <th>Graduation Year</th>
+             </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>High School Diploma</td>
+                <td></td>
+                <td>2015</td>
+              </tr>
+              <tr>
+            <th>Related Studies:</th>
+            <td>Electronics, Business Technology, Microsoft Office, HVAC, and JROTC</td>
+            <td></td>
+              </tr>
+              <tr>
+                <th>Achievements:</th>
+                <td>Completed Career/Technical Program Certification at Brewer High School</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+        <div class="bs-callout bs-callout-danger">
+        <h4>Volunteer Experience</h4>
+        <ul class="list-group">
+          <li class="list-group-item"> BASH (Be About Serving Him) </li>
+          <li class="list-group-item"> Youth Ministry - Center Springs Methodist Church </li>
+          <li class="list-group-item"> Pine Ridge Day Camp Volunteer </li>
+        </ul>
+      </div>
       </div>
     </div>
-
   </div>
 </div>
-    
 </div>
-
 </div>
-
+</div>
+</div>
+</div>
 
 
 

@@ -26,6 +26,11 @@ $('body').on('click', '#kidscorner', function(e){
 });
 
 
+// -- RESUME
+$('body').on('click', '#matthewhopp', function(e){
+	$('.container-content').hide();
+	$('#matthewhopp-content').show();
+});
 
 
 
